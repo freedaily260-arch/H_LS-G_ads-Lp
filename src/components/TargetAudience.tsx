@@ -1,6 +1,6 @@
 export default function TargetAudience() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-green-50 to-white">
+    <section id="who-is-this-for" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-green-50 to-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 sm:mb-10 leading-tight">
           Who This Service Is For?

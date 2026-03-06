@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 export default function FinalCTA() {
   const navigate = useNavigate();
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="contact" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 z-0"
         style={{

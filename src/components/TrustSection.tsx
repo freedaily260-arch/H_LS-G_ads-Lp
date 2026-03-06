@@ -21,7 +21,7 @@ export default function TrustSection() {
   }, []);
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white to-green-50">
+    <section id="testimonials" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white to-green-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 text-center leading-tight">
           Why Ahmedabad Homeowners and Businesses Trust Hyderabadi Nursery & Landscapers

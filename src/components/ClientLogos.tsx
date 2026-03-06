@@ -27,7 +27,7 @@ export default function ClientLogos() {
   }, []);
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-white">
+    <section id="clients" className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-12 sm:mb-16 text-center leading-tight">
           Our Clients
