@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const clientLogos = [
-  '',
-  '',
-  '',
-  '',
-  '',
+  'https://i.ibb.co/CTkjZjm/imagesfsda.png'
 ];
 
 export default function ClientLogos() {
