@@ -5,6 +5,7 @@ const carouselImages = [
   'https://i.ibb.co/LMMrcMG/Screenshot-6-3-2026-74451.jpg',
   'https://i.ibb.co/TxyNTrhj/Screenshot-6-3-2026-74038.jpg',
   'https://i.ibb.co/zWdL0mb4/Screenshot-6-3-2026-74759.jpg',
+  'https://i.ibb.co/WNdLKNz4/Screenshot-6-3-2026-7512.jpg'
 ];
 
 export default function TrustSection() {
