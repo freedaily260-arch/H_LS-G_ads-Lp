@@ -1,8 +1,19 @@
 import { useEffect, useState } from 'react';
 
 const clientLogos = [
-  'https://i.ibb.co/CTkjZjm/imagesfsda.png',
-  ''
+'https://i.ibb.co/3mQ2H8wq/images-1.png',
+'https://i.ibb.co/DPJmg0F2/Screenshot-6-3-2026-81158.jpg',
+'https://i.ibb.co/GQYpJXhc/Screenshot-6-3-2026-81151.jpg',
+'https://i.ibb.co/BVHgXDhw/Screenshot-6-3-2026-81146.jpg',
+'https://i.ibb.co/MyNhVmCv/Screenshot-6-3-2026-8103.jpg',
+'https://i.ibb.co/GZWNNwQ/Screenshot-6-3-2026-8957.jpg',
+'https://i.ibb.co/mF13DYTh/Screenshot-6-3-2026-8941.jpg',
+'https://i.ibb.co/whxP6p6J/Screenshot-6-3-2026-8926.jpg',
+'https://i.ibb.co/fZzqtQf/Screenshot-6-3-2026-8913.jpg',
+'https://i.ibb.co/0jV8rtsW/Screenshot-6-3-2026-896.jpg',
+'https://i.ibb.co/VY1SQFhz/Screenshot-6-3-2026-8857.jpg',
+'https://i.ibb.co/99RrDxLT/Screenshot-6-3-2026-8851-Copy.jpg',
+'https://i.ibb.co/pvTfpXPX/Screenshot-6-3-2026-8841-Copy.jpg'
 ];
 
 export default function ClientLogos() {
