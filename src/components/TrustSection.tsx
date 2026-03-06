@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 
 const carouselImages = [
   'https://i.ibb.co/LMMrcMG/Screenshot-6-3-2026-74451.jpg',
+  'https://i.ibb.co/B2dMmWN8/Screenshot-6-3-2026-7448.jpg',
   'https://i.ibb.co/TxyNTrhj/Screenshot-6-3-2026-74038.jpg',
+  'https://i.ibb.co/Z6CXnmLt/Screenshot-6-3-2026-211137.jpg',
   'https://i.ibb.co/zWdL0mb4/Screenshot-6-3-2026-74759.jpg',
   'https://i.ibb.co/QF2SrMq5/Screenshot-6-3-2026-7437.jpg',
   'https://i.ibb.co/nMgTQfgq/Screenshot-6-3-2026-74029.jpg',
