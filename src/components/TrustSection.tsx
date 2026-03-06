@@ -5,7 +5,6 @@ const carouselImages = [
   'https://i.ibb.co/LMMrcMG/Screenshot-6-3-2026-74451.jpg',
   'https://i.ibb.co/TxyNTrhj/Screenshot-6-3-2026-74038.jpg',
   'https://i.ibb.co/zWdL0mb4/Screenshot-6-3-2026-74759.jpg',
-  'https://i.ibb.co/WNdLKNz4/Screenshot-6-3-2026-7512.jpg',
   'https://i.ibb.co/QF2SrMq5/Screenshot-6-3-2026-7437.jpg',
   'https://i.ibb.co/nMgTQfgq/Screenshot-6-3-2026-74029.jpg',
   'https://i.ibb.co/fdrNh5qP/Screenshot-6-3-2026-7399.jpg'
