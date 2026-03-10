@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import ClientLogos from '../components/ClientLogos';
 import TrustSection from '../components/TrustSection';
 import Services from '../components/Services';
 import TargetAudience from '../components/TargetAudience';
@@ -10,7 +9,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Hero />
-      <ClientLogos />
       <TrustSection />
       <Services />
       <TargetAudience />
