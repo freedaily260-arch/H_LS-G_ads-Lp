@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function FinalCTA() {
@@ -32,11 +32,7 @@ export default function FinalCTA() {
           Schedule Site Visit
         </button>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-          <a href="tel:7228001500" className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-5 py-2.5 rounded-lg text-sm sm:text-base transition-all border border-white/30 backdrop-blur-sm w-full sm:w-auto justify-center">
-            <Phone className="w-4 h-4" />
-            Call Now
-          </a>
+        <div className="flex justify-center">
           <a href="https://wa.me/917228001500" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-5 py-2.5 rounded-lg text-sm sm:text-base transition-all border border-white/30 backdrop-blur-sm w-full sm:w-auto justify-center">
             <MessageCircle className="w-4 h-4" />
             Message on WhatsApp
