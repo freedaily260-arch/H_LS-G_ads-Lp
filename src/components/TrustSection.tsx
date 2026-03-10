@@ -26,11 +26,11 @@ export default function TrustSection() {
     <section id="testimonials" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white to-green-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 text-center leading-tight">
-          Why Ahmedabad Homeowners and Businesses Trust Hyderabadi Nursery & Landscaping
+          Why Ahmedabad Homeowners and Businesses Trust Hyderabadi Nursery & Landscapers
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-6 sm:mb-8 text-center leading-relaxed">
-          Hyderabadi Nursery & Landscaping has delivered professional landscaping solutions across Ahmedabad. Our experienced team manages complete turnkey landscaping projects — from concept design to final execution — using premium materials and structured planning.
+          Hyderabadi Nursery Landscapers has delivered professional landscaping solutions across Ahmedabad. Our experienced team manages complete turnkey landscaping projects — from concept design to final execution — using premium materials and structured planning.
         </p>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-10 sm:mb-12 text-center font-semibold">

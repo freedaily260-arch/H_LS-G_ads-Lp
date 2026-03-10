@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { supabase } from '../lib/supabase';
 
 export default function BookingForm() {
   const navigate = useNavigate();
@@ -66,20 +67,18 @@ export default function BookingForm() {
     setLoading(true);
 
     try {
-      const submission = {
-        id: crypto.randomUUID(),
-        name: formData.name,
-        phone: formData.phone,
-        property_location: formData.location,
-        area_size: parseInt(formData.areaSize),
-        project_description: formData.description || null,
-        status: 'unanswered',
-        created_at: new Date().toISOString(),
-      };
+      const { error } = await supabase.from('bookings').insert([
+        {
+          name: formData.name,
+          phone: formData.phone,
+          property_location: formData.location,
+          area_size: parseInt(formData.areaSize),
+          project_description: formData.description || null,
+          created_at: new Date().toISOString(),
+        },
+      ]);
 
-      const existing = JSON.parse(localStorage.getItem('hn_bookings') || '[]');
-      existing.push(submission);
-      localStorage.setItem('hn_bookings', JSON.stringify(existing));
+      if (error) throw error;
 
       setSubmitSuccess(true);
       setFormData({
