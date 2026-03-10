@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 export default function Hero() {
   const navigate = useNavigate();
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://i.ibb.co/cXhXrJSR/IMG-200226008-jpg.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/7xLHTSG0/Whats-App-Image-2026-02-26-at-1-36-55-PM-2.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 export default function FinalCTA() {
   const navigate = useNavigate();
   return (
-    <section id="contact" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://i.ibb.co/W9knVhh/Whats-App-Image-6-02-26-at-1-36-55-M-3.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/qYgdNZPT/Whats-App-Image-6-02-26-at-1-36-55-PM-3.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
