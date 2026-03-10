@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../lib/supabase';
+import { supabase, isSupabaseConfigured } from '../lib/supabase';
 
 export default function BookingForm() {
   const navigate = useNavigate();
@@ -67,6 +67,10 @@ export default function BookingForm() {
     setLoading(true);
 
     try {
+      if (!isSupabaseConfigured || !supabase) {
+        throw new Error('Database not configured');
+      }
+
       const { error } = await supabase.from('bookings').insert([
         {
           name: formData.name,
